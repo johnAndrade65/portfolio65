@@ -16,8 +16,7 @@ const Experience = () => {
                     jogos com Unity 5 e C#, mas em 2021 ele migrou para o desenvolvimento web, onde iniciou seus estudos como 
                     Front-end, dominando o HTML5, CSS3, Javascript, Bootstrap e a biblioteca ReactJS, onde estudou por mais de 
                     um ano de forma dedicada. <br/> Em 2022, ele percebeu que poderia usar sua experiência em C# para o Back-end e, 
-                    por isso, estudou .NET 6, MySQL e SQL Server de forma disciplinada para finalmente ser tornar um profissional
-                    completo FullStack.<br/>
+                    por isso, estudou .NET 6 e MySQL de forma disciplinada para finalmente ser tornar um profissional FullStack.<br/>
                     Atualmente, ele busca por uma oportunidade para atuar como CLT ou PJ!.
                     </p>
                 </div>

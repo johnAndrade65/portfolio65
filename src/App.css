@@ -79,33 +79,10 @@ body {
      cursor: pointer;
 }
 
-/*Componente Carousel-skills*/
-.carousel-item {
-     background-color: var(--secondary-bg-color);
-     height: 200px;
-     width: 100%;
-     border-radius: 15px;
-}
-.carousel-item .carousel-caption {
-     width: 80%;
-     display: flex;
-     align-items: center;
-     justify-content: space-around;
-     position: relative;
-     top: 50px;
-     left: 110px;
-}
-.carousel-caption .skill {
-     height: 50px;
-     width: auto;
-     border-radius: 5px;
-}
-/*Componente Experience*/
-.experience-element {
-     background-color: var(--secondary-bg-color);
-     height: 500px;
-     width: 480px;
-}
+/*Componente Experience:
+     -No componente "Experience" reutilizei o CSS do componente "Resume" por
+     que seriam basicamente iguais;*/
+
 /*Texto com cor personalizada<span></span>*/
 span {
      color: #7c3bff;
@@ -177,6 +154,7 @@ span {
 }
 /*Responsividade*/
 @media screen and (max-width: 1115px) {
+
      .Resume {
           display: flex;
           justify-content: center;
@@ -191,28 +169,6 @@ span {
      .resume-text {
           width: 1005px;
      }
-     .carousel-item .carousel-caption {
-          top: 50px;
-          left: 91px;
-     }
-}
-@media screen and (max-width: 992px) {
-     .carousel-item .carousel-caption {
-          top: 50px;
-          left: 70px;
-     }
-     .carousel-caption .skill {
-          height: 50px;
-     }
-}
-@media screen and (max-width: 770px) {
-     .carousel-item .carousel-caption {
-          top: 50px;
-          left: 52px;
-     }
-     .carousel-caption .skill {
-          height: 50px;
-     }
 }
 @media screen and (max-width: 520px) {
      .resume-text {
@@ -221,21 +177,5 @@ span {
           padding: 10px 20px;
           border-bottom-right-radius: 15px;
           border-bottom-left-radius: 15px;
-     }
-     .carousel-item .carousel-caption {
-          top: 50px;
-          left: 45px;
-     }
-     .carousel-caption .skill {
-          height: 40px;
-     }
-}
-@media screen and (max-width: 450px) {
-     .carousel-item .carousel-caption {
-          top: 50px;
-          left: 33px;
-     }
-     .carousel-caption .skill {
-          height: 40px;
      }
 }
