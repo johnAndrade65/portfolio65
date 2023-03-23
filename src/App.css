@@ -1,0 +1,241 @@
+/*Variaveis*/
+:root {
+     --main-bg-color: #000;
+     --secondary-bg-color: rgb(19, 19, 19);
+     --main-theme-color: #5e17eb;
+}
+
+/*Estilização geral*/
+* {
+     color: #fff;
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+}
+
+/*Body*/
+body {
+     background-color: var(--main-bg-color);
+}
+/*Componente Header*/
+.header {
+     background-color: var(--main-theme-color);
+}
+
+/*Componente Resume*/
+.Resume {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+.profile-image {
+     height: auto;
+     width: 500px;
+     display: flex;
+     justify-content: center;
+     margin: 0 10px;
+}
+.profile-image img {
+     height: inherit;
+     width: inherit;
+     border-top-right-radius: 15px;
+     border-top-left-radius: 15px;
+}
+.resume-text {
+     max-height: 500px;
+     width: 480px;
+     margin: 0 10px;
+     padding: 5px 20px;
+     background-color: var(--secondary-bg-color);
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     border-bottom-left-radius: 15px;
+     border-bottom-right-radius: 15px;
+}
+.resume-text h2 {
+     font-weight: bold;
+     font-size: 45px;
+}
+.resume-text p {
+     font-size: 18px;
+}
+
+/*Componente Whatsapp-icon*/
+.whatsapp-icon {
+     height: 65px;
+     width: 65px;
+     border-radius: 15%;
+     position: fixed;
+     right: 8%;
+     bottom: 6%;
+     z-index: 2;
+}
+.whatsapp-icon img {
+     height: inherit;
+     width: inherit;
+     opacity: 65%;
+     cursor: pointer;
+}
+
+/*Componente Carousel-skills*/
+.carousel-item {
+     background-color: var(--secondary-bg-color);
+     height: 200px;
+     width: 100%;
+     border-radius: 15px;
+}
+.carousel-item .carousel-caption {
+     width: 80%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     position: relative;
+     top: 50px;
+     left: 110px;
+}
+.carousel-caption .skill {
+     height: 50px;
+     width: auto;
+     border-radius: 5px;
+}
+/*Componente Experience*/
+.experience-element {
+     background-color: var(--secondary-bg-color);
+     height: 500px;
+     width: 480px;
+}
+/*Texto com cor personalizada<span></span>*/
+span {
+     color: #7c3bff;
+}
+
+/*Componente Projects*/
+.projects {
+     height: 150px;
+     width: 100%;
+     background-color: var(--main-theme-color);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     position: relative;
+     left: 50%;
+     transform: translateX(-50%);
+}
+.projects h6 {
+     text-align: center;
+}
+.projects button {
+     padding: 15px 12vw;
+     background-color: rgba(0, 0, 0, 0%);
+     border: 1px solid #fff;
+     border-radius: 50px;
+     transition: all ease-in 0.3s;
+}
+.projects button:hover {
+     color: var(--main-theme-color);
+     padding: 15px 12vw;
+     background-color: rgb(255, 255, 255);
+     border: 1px solid var(--main-theme-color);
+     border-radius: 50px;
+}
+
+/*Componente Footer*/
+.footer {
+     height: auto;
+     width: 100%;
+     background-color: var(--secondary-bg-color);
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     padding: 15px 0;
+}
+.footer div {
+     height: auto;
+     width: 150px;
+     padding: 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.footer div ul {
+     height: inherit;
+     width: inherit;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 0;
+}
+.footer div ul li,
+.footer h6 {
+     font-size: 15px;
+     list-style: none;
+     text-align: center;
+}
+/*Responsividade*/
+@media screen and (max-width: 1115px) {
+     .Resume {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+     }
+     .profile-image {
+          height: auto;
+          width: 1005px;
+          display: flex;
+          justify-content: center;
+     }
+     .resume-text {
+          width: 1005px;
+     }
+     .carousel-item .carousel-caption {
+          top: 50px;
+          left: 91px;
+     }
+}
+@media screen and (max-width: 992px) {
+     .carousel-item .carousel-caption {
+          top: 50px;
+          left: 70px;
+     }
+     .carousel-caption .skill {
+          height: 50px;
+     }
+}
+@media screen and (max-width: 770px) {
+     .carousel-item .carousel-caption {
+          top: 50px;
+          left: 52px;
+     }
+     .carousel-caption .skill {
+          height: 50px;
+     }
+}
+@media screen and (max-width: 520px) {
+     .resume-text {
+          min-height: 500px;
+          max-height: 800px;
+          padding: 10px 20px;
+          border-bottom-right-radius: 15px;
+          border-bottom-left-radius: 15px;
+     }
+     .carousel-item .carousel-caption {
+          top: 50px;
+          left: 45px;
+     }
+     .carousel-caption .skill {
+          height: 40px;
+     }
+}
+@media screen and (max-width: 450px) {
+     .carousel-item .carousel-caption {
+          top: 50px;
+          left: 33px;
+     }
+     .carousel-caption .skill {
+          height: 40px;
+     }
+}
