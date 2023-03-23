@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/johnAndrade65/portfolio65.git/static/css/main.9ea03a4c.css",
+    "main.js": "/johnAndrade65/portfolio65.git/static/js/main.14365fde.js",
+    "static/js/787.d2eb3f4e.chunk.js": "/johnAndrade65/portfolio65.git/static/js/787.d2eb3f4e.chunk.js",
+    "static/media/profile.png": "/johnAndrade65/portfolio65.git/static/media/profile.2015bced5f7cf191df6f.png",
+    "static/media/WhatsApp.svg.webp": "/johnAndrade65/portfolio65.git/static/media/WhatsApp.svg.e1e45bfafee08430c1a7.webp",
+    "static/media/programação-wallpaper.jpg": "/johnAndrade65/portfolio65.git/static/media/programação-wallpaper.6b56fc575719770b0d67.jpg",
+    "static/media/sql-server.svg": "/johnAndrade65/portfolio65.git/static/media/sql-server.52090d7441142f2073d31e5b82fb523e.svg",
+    "static/media/mysql.svg": "/johnAndrade65/portfolio65.git/static/media/mysql.016e89212f1e6dd66cd90a320782c886.svg",
+    "static/media/react-js.svg": "/johnAndrade65/portfolio65.git/static/media/react-js.e72c9ed5483656b44c338310ad3219ce.svg",
+    "static/media/bootstrap.svg": "/johnAndrade65/portfolio65.git/static/media/bootstrap.51cccb2ee9d816f930c4b60d08b51a82.svg",
+    "static/media/csharp2.svg": "/johnAndrade65/portfolio65.git/static/media/csharp2.63bafc91346595087de3ed2defd0a337.svg",
+    "static/media/dotnet-logo.svg": "/johnAndrade65/portfolio65.git/static/media/dotnet-logo.b4a1f214e0667e233ce63e039e7066ca.svg",
+    "static/media/figma-svg.svg": "/johnAndrade65/portfolio65.git/static/media/figma-svg.eea90cbdb2df47f3f9a77474d7dd244c.svg",
+    "static/media/html5.svg": "/johnAndrade65/portfolio65.git/static/media/html5.e2c364a792066ccbbfcbbf4ace880677.svg",
+    "index.html": "/johnAndrade65/portfolio65.git/index.html",
+    "static/media/javascript-logo.svg": "/johnAndrade65/portfolio65.git/static/media/javascript-logo.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "static/media/css3.svg": "/johnAndrade65/portfolio65.git/static/media/css3.d51e893b4eecd56b38b570e498bd1712.svg",
+    "main.9ea03a4c.css.map": "/johnAndrade65/portfolio65.git/static/css/main.9ea03a4c.css.map",
+    "main.14365fde.js.map": "/johnAndrade65/portfolio65.git/static/js/main.14365fde.js.map",
+    "787.d2eb3f4e.chunk.js.map": "/johnAndrade65/portfolio65.git/static/js/787.d2eb3f4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ea03a4c.css",
+    "static/js/main.14365fde.js"
+  ]
+}
