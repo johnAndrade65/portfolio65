@@ -3,6 +3,7 @@
      --main-bg-color: #000;
      --secondary-bg-color: rgb(19, 19, 19);
      --main-theme-color: #5e17eb;
+     --h1-color: #ffae00;
 }
 
 /*Estilização geral*/
@@ -55,6 +56,7 @@ body {
      border-bottom-right-radius: 15px;
 }
 .resume-text h2 {
+     color: var(--h1-color);
      font-weight: bold;
      font-size: 45px;
 }
@@ -85,40 +87,71 @@ body {
 
 /*Texto com cor personalizada<span></span>*/
 span {
-     color: #7c3bff;
+     color: var(--h1-color);
 }
 
 /*Componente Projects*/
-.projects {
-     height: 150px;
+.projects-container {
+     height: 70vh;
      width: 100%;
+     max-width: 100%;
      background-color: var(--main-theme-color);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.projects-container .projects-container-center {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+     gap: 35px;
+     position: relative;
+     bottom: 25px;
+}
+.projects-img-container {
+     width: 500px;
+     height: 35vh;
+     padding-top: 15px;
+}
+.projects-text-container {
+     max-width: 100%;
+     height: 20vh;
+}
+.carousel-projects {
+     height: 300px;
+     width: 500px;
+}
+.projects-text-container {
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: column;
      position: relative;
-     left: 50%;
-     transform: translateX(-50%);
+     top: 50px;
 }
-.projects h6 {
+.projects-text-container h6 {
      text-align: center;
 }
-.projects button {
+.projects-text-container button {
      padding: 15px 12vw;
      background-color: rgba(0, 0, 0, 0%);
      border: 1px solid #fff;
      border-radius: 50px;
      transition: all ease-in 0.3s;
 }
-.projects button:hover {
+.projects-text-container button:hover {
      color: var(--main-theme-color);
      padding: 15px 12vw;
-     background-color: rgb(255, 255, 255);
-     border: 1px solid var(--main-theme-color);
+     background-color: var(--h1-color);
+     border: 1px solid var(--h1-color);
      border-radius: 50px;
 }
-
+.projects-text-container button a {
+     text-decoration: none;
+     height: 300px;
+     width: 100px;
+}
 /*Componente Footer*/
 .footer {
      height: auto;
@@ -154,7 +187,7 @@ span {
 }
 /*Responsividade*/
 @media screen and (max-width: 1115px) {
-
+     /* Componente Resume */
      .Resume {
           display: flex;
           justify-content: center;
@@ -169,6 +202,55 @@ span {
      .resume-text {
           width: 1005px;
      }
+
+     /* Componente Projects */
+     .projects-container {
+          height: 480px;
+          background-color: var(--main-theme-color);
+          padding: 15px 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+     .projects-container-center {
+          flex-direction: column;
+     }
+}
+@media screen and (max-width: 540px) {
+     .projects-container {
+          height: 60vh;
+          width: 100%;
+     }
+     .projects-container .projects-container-center {
+          gap: 35px;
+          position: relative;
+          bottom: 12px;
+     }
+     .projects-img-container {
+          transform: scale(80%);
+          padding-top: 15px;
+          position: relative;
+          top: 0px;
+     }
+     .carousel-projects {
+          height: 300px;
+          width: 500px;
+     }
+     .projects-text-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          position: relative;
+          top: 5px;
+     }
+     .projects-text-container h6 {
+          text-align: center;
+     }
+     .projects-text-container button,
+     .projects-text-container button:hover {
+          padding: 15px 25vw;
+     }
 }
 @media screen and (max-width: 520px) {
      .resume-text {
@@ -177,5 +259,29 @@ span {
           padding: 10px 20px;
           border-bottom-right-radius: 15px;
           border-bottom-left-radius: 15px;
+     }
+}
+@media screen and (max-width: 470px) {
+     .resume-text {
+          min-height: 500px;
+          max-height: 800px;
+          padding: 10px 20px;
+          border-bottom-right-radius: 15px;
+          border-bottom-left-radius: 15px;
+     }
+     /*Componente Projects*/
+     .projects-container .projects-container-center {
+          gap: 35px;
+          position: relative;
+          bottom: 33px;
+     }
+     .projects-img-container {
+          transform: scale(65%);
+          padding-top: 15px;
+          position: relative;
+          top: 15px;
+     }
+     .projects-text-container h6 {
+          padding-bottom: 5px;
      }
 }

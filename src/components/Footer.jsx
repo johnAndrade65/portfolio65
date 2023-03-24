@@ -9,7 +9,7 @@ function Footer() {
                     <li>Contato</li>
                 </ul>
             </div>
-            <h6>Vinicius Andrade - Todos direitos reservados</h6>
+            <h6>@Vinicius Andrade - Todos direitos reservados</h6>
         </footer>
     )
 }
