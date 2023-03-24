@@ -92,65 +92,36 @@ span {
 
 /*Componente Projects*/
 .projects-container {
-     height: 70vh;
+     height: auto;
      width: 100%;
      max-width: 100%;
+     padding: 15px 0 25px 0;
+     margin-top: 30px;
      background-color: var(--main-theme-color);
      display: flex;
      align-items: center;
      justify-content: center;
 }
-.projects-container .projects-container-center {
-     display: flex;
-     align-items: center;
-     flex-direction: column;
-     justify-content: center;
-     gap: 35px;
-     position: relative;
-     bottom: 25px;
+.carousel-projects-container {
+     height: auto;
+     width: 45vw;
 }
-.projects-img-container {
-     width: 500px;
-     height: 35vh;
-     padding-top: 15px;
-}
-.projects-text-container {
-     max-width: 100%;
-     height: 20vh;
-}
-.carousel-projects {
-     height: 300px;
-     width: 500px;
-}
-.projects-text-container {
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     position: relative;
-     top: 50px;
-}
-.projects-text-container h6 {
+.projects-container h6 {
      text-align: center;
 }
-.projects-text-container button {
-     padding: 15px 12vw;
+.projects-container button {
+     height: 10vh;
+     width: 45vw;
      background-color: rgba(0, 0, 0, 0%);
      border: 1px solid #fff;
      border-radius: 50px;
      transition: all ease-in 0.3s;
 }
-.projects-text-container button:hover {
+.projects-container button:hover {
      color: var(--main-theme-color);
-     padding: 15px 12vw;
      background-color: var(--h1-color);
      border: 1px solid var(--h1-color);
      border-radius: 50px;
-}
-.projects-text-container button a {
-     text-decoration: none;
-     height: 300px;
-     width: 100px;
 }
 /*Componente Footer*/
 .footer {
@@ -170,7 +141,7 @@ span {
      align-items: center;
      justify-content: center;
 }
-.footer div ul{
+.footer div ul {
      height: inherit;
      width: inherit;
      display: flex;
@@ -179,7 +150,8 @@ span {
      justify-content: center;
      padding: 0;
 }
-.footer div ul li, .footer div ul li a,
+.footer div ul li,
+.footer div ul li a,
 .footer h6 {
      color: #fff;
      text-decoration: none;
@@ -205,56 +177,16 @@ span {
      .resume-text {
           width: 1005px;
      }
-
-     /* Componente Projects */
-     .projects-container {
-          height: 480px;
-          background-color: var(--main-theme-color);
-          padding: 15px 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-     }
-     .projects-container-center {
-          flex-direction: column;
-     }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 820px) {
      /* Componente Projects */
-     .projects-container {
-          height: 60vh;
-          width: 100%;
+     .carousel-projects-container {
+          height: auto;
+          width: 75vw;
      }
-     .projects-container .projects-container-center {
-          gap: 35px;
-          position: relative;
-          bottom: 12px;
-     }
-     .projects-img-container {
-          transform: scale(80%);
-          padding-top: 15px;
-          position: relative;
-          top: 0px;
-     }
-     .carousel-projects {
-          height: 300px;
-          width: 500px;
-     }
-     .projects-text-container {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          position: relative;
-          top: 5px;
-     }
-     .projects-text-container h6 {
-          text-align: center;
-     }
-     .projects-text-container button,
-     .projects-text-container button:hover {
-          padding: 15px 25vw;
-     }
+     .projects-container button {
+          width: 75vw;
+     }     
 }
 @media screen and (max-width: 520px) {
      /* Componente Resume */
@@ -265,6 +197,14 @@ span {
           border-bottom-right-radius: 15px;
           border-bottom-left-radius: 15px;
      }
+     /* Componente Projects */
+     .carousel-projects-container {
+          height: auto;
+          width: 93vw;
+     }
+     .projects-container button {
+          width: 90vw;
+     }  
 }
 @media screen and (max-width: 470px) {
      /* Componente Resume */
@@ -274,20 +214,5 @@ span {
           padding: 10px 20px;
           border-bottom-right-radius: 15px;
           border-bottom-left-radius: 15px;
-     }
-     /*Componente Projects*/
-     .projects-container .projects-container-center {
-          gap: 35px;
-          position: relative;
-          bottom: 33px;
-     }
-     .projects-img-container {
-          transform: scale(65%);
-          padding-top: 15px;
-          position: relative;
-          top: 15px;
-     }
-     .projects-text-container h6 {
-          padding-bottom: 5px;
      }
 }
