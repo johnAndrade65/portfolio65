@@ -2,9 +2,12 @@
 <p>Ainda em construção! criado por mim para servir como meu portfólio!</p>
 <h5>Front-end criado com React JS e Bootstrap5 + ReactBoostrap já responsivo para diversos tamanhos de telas</h5>
 
-<ol>Atualização:</ol>
-  <li>- Correção de alinhamento da banner de "Habilidades".</li>
+<ol>Atualização:
+  <li>- Melhorias no componente "Projects" como, adição de carousel de imagens dos projetos.</li>
+  <li>- Responsividade no componente "Projects"</li>
   <li>- Adição de alguns comentarios no CSS do Portfolio.</li>
+  <li>- Correção de erro de sintaxe do Readme.md</li>
+</ol>
 <img src="./src/images/readme.png" alt="Screen Capture">
 <div>
   <h3>Front-end:</h3>
