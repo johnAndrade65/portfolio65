@@ -110,6 +110,7 @@ span {
      text-align: center;
 }
 .projects-container button {
+     font-size: larger;
      height: 10vh;
      width: 45vw;
      background-color: rgba(0, 0, 0, 0%);

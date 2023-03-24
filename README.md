@@ -4,7 +4,7 @@
 <p>Deploy: https://johnandrade65.github.io/portfolio65/</p>
 
 <ol>Atualização componente Projects:
-  <li>- Melhorias no CSS do componente "Projects".</li>
+  <li>- Melhorias no CSS do componente "Projects" e seus elementos.</li>
   <li>- Responsividade no componente "Projects" de forma mais fluída.</li>
   <li>- Melhor compatibilidade com diferentes tamanhos de telas.</li>
   <li>- Correção de erro de sintaxe do Readme.md</li>
