@@ -8,9 +8,9 @@
   <li>- Responsividade no componente "Projects" de forma mais fluída.</li>
   <li>- Melhor compatibilidade com diferentes tamanhos de telas.</li>
   <li>- Correção de erro de sintaxe do Readme.md</li>
-  <li>- Adição do menu de rodapé ao Footer</li>
-  <li>- Adição do Favicon</li>
-  <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio</li>
+  <li>- Adição do menu de rodapé ao Footer.</li>
+  <li>- Adição do Favicon.</li>
+  <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio.</li>
 </ol>
 <img src="./src/images/readme.png" alt="Screen Capture">
 <div>
