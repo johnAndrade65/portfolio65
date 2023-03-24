@@ -170,7 +170,7 @@ span {
      align-items: center;
      justify-content: center;
 }
-.footer div ul {
+.footer div ul{
      height: inherit;
      width: inherit;
      display: flex;
@@ -179,12 +179,15 @@ span {
      justify-content: center;
      padding: 0;
 }
-.footer div ul li,
+.footer div ul li, .footer div ul li a,
 .footer h6 {
+     color: #fff;
+     text-decoration: none;
      font-size: 15px;
      list-style: none;
      text-align: center;
 }
+
 /*Responsividade*/
 @media screen and (max-width: 1115px) {
      /* Componente Resume */
@@ -217,6 +220,7 @@ span {
      }
 }
 @media screen and (max-width: 540px) {
+     /* Componente Projects */
      .projects-container {
           height: 60vh;
           width: 100%;
@@ -253,6 +257,7 @@ span {
      }
 }
 @media screen and (max-width: 520px) {
+     /* Componente Resume */
      .resume-text {
           min-height: 500px;
           max-height: 800px;
@@ -262,6 +267,7 @@ span {
      }
 }
 @media screen and (max-width: 470px) {
+     /* Componente Resume */
      .resume-text {
           min-height: 500px;
           max-height: 800px;

@@ -9,7 +9,7 @@ import Projeto3 from '../images/projeto-3.png';
 
 const Projects = () => {
   const openPageProfileGitHub = () => {
-    window.open("https://github.com/johnAndrade65", "_blank");
+    window.open('https://github.com/johnAndrade65', '_blank');
   }
 
   return (
@@ -21,26 +21,26 @@ const Projects = () => {
             <Carousel fade>
               <Carousel.Item className='carousel-projects'>
                 <img
-                  className="d-block w-100 img-fluid rounded"
+                  className='d-block w-100 img-fluid rounded'
                   style={{ borderRadius: '15px' }}
                   src={Projeto1}
-                  alt="First slide"
+                  alt='First slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100 img-fluid rounded"
+                  className='d-block w-100 img-fluid rounded'
                   style={{ borderRadius: '15px' }}
                   src={Projeto2}
-                  alt="First slide"
+                  alt='First slide'
                 />
               </Carousel.Item>
               <Carousel.Item>
                 <img
-                  className="d-block w-100"
+                  className='d-block w-100'
                   style={{ borderRadius: '15px' }}
                   src={Projeto3}
-                  alt="First slide"
+                  alt='First slide'
                 />
               </Carousel.Item>
             </Carousel>

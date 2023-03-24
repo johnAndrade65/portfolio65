@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <Navbar className='header' variant="dark" expand="lg">
                 <Container className='d-flex justify-content-between'>
-                    <Navbar.Brand href="#home" className='fs-2'>Portfolio65</Navbar.Brand>
+                    <Navbar.Brand href="#home" className='fs-2' id='home'>Portfolio65</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-left">

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
-import wallpaper from '../images/programação-wallpaper.jpg';
+import wallpaper from '../images/programação-wallpaper.png';
 
 const Experience = () => {
     return (

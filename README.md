@@ -1,12 +1,16 @@
 ﻿## Portfolio65
 <p>Ainda em construção! criado por mim para servir como meu portfólio!</p>
 <h5>Front-end criado com React JS e Bootstrap5 + ReactBoostrap já responsivo para diversos tamanhos de telas</h5>
+<p>Deploy: https://johnandrade65.github.io/portfolio65/</p>
 
-<ol>Atualização:
+<ol>Atualização componente Projects e Footer:
   <li>- Melhorias no componente "Projects" como, adição de carousel de imagens dos projetos.</li>
   <li>- Responsividade no componente "Projects"</li>
-  <li>- Adição de alguns comentarios no CSS do Portfolio.</li>
+  <li>- Adição de alguns comentarios no CSS na área de responsividade.</li>
   <li>- Correção de erro de sintaxe do Readme.md</li>
+  <li>- Adição do menu de rodapé ao Footer</li>
+  <li>- Adição do Favicon</li>
+  <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio</li>
 </ol>
 <img src="./src/images/readme.png" alt="Screen Capture">
 <div>
