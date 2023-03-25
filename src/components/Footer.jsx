@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className='footer' data-aos='fade-up'>
+        <footer className='footer'>
             <div>
                 <ul>
                     <li><a href='#home'>Inicio</a></li>

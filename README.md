@@ -3,10 +3,12 @@
 <h5>Front-end criado com React JS e Bootstrap5 + ReactBoostrap já responsivo para diversos tamanhos de telas</h5>
 <p>Deploy: https://johnandrade65.github.io/portfolio65/</p>
 
-<ol>Atualização de animações com AOS:
+<ol>Atualização de animações com AOS e correção do Header:
   <li>- Adição da biblioteca AOS(Animate On Scroll) para animar o projeto de forma rápida.</li>
+  <li>- Correção da ordem dos itens do menu no componente Header</li>
   <li>- Responsividade com maior número de dispositivos sem quebrar o container.</li>
-  <li>- Correções no border-radius do carousel do componente Projects.</li>
+  <li>- Mudança nas animações AOS nos componentes Skills, Projects.</li>
+  <li>- Remoção da animação AOS no componente Footer.</li>
   <li>- Melhorias na copy do componente Experience.</li>
   <li>- Remoção de bibliotecas desnescessarias para uma melhor performance no SEO do projeto.</li>
   <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio.</li>
