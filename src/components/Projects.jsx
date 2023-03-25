@@ -14,7 +14,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className='projects-container d-flex flex-column align-items-center justify-content-center'>
+      <div className='projects-container d-flex flex-column align-items-center justify-content-center' data-aos="fade-right">
         <h3 className='text-center' id='projects'>Projetos</h3>
         <Container className='carousel-projects-container'>
           <Carousel fade>

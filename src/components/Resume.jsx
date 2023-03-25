@@ -5,7 +5,7 @@ import { Container } from 'react-bootstrap';
 const Resume = () => {
 
     return (
-        <Container className='Resume container-fluid col-12 centered' id='resume'>
+        <Container className='Resume container-fluid col-12 centered' id='resume' data-aos='fade-up'>
             <div className='profile-image'>
                 <img className='img-fluid' src={profileImage} alt="" />
             </div>

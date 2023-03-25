@@ -5,8 +5,8 @@ import wallpaper from '../images/programação-wallpaper.png';
 const Experience = () => {
     return (
         <>
-            <h3 className='text-center mt-2' id='experience'>Experiência</h3>
-            <Container className='Resume container-fluid col-12 centered' id='resume'>
+            <h3 className='text-center mt-2' id='experience' data-aos='fade-up'>Experiência</h3>
+            <Container className='Resume container-fluid col-12 centered' id='resume' data-aos='fade-up'>
                 <div className='profile-image'>
                     <img className='img-fluid' src={wallpaper} alt="" />
                 </div>

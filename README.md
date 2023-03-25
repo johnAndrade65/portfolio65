@@ -3,12 +3,12 @@
 <h5>Front-end criado com React JS e Bootstrap5 + ReactBoostrap já responsivo para diversos tamanhos de telas</h5>
 <p>Deploy: https://johnandrade65.github.io/portfolio65/</p>
 
-<ol>Atualização componente Projects, Experience:
-  <li>- Melhorias no CSS do componente Experience.</li>
+<ol>Atualização de animações com AOS:
+  <li>- Adição da biblioteca AOS(Animate On Scroll) para animar o projeto de forma rápida.</li>
   <li>- Responsividade com maior número de dispositivos sem quebrar o container.</li>
-  <li>- Melhorias no CSS do componente Projects.</li>
   <li>- Correções no border-radius do carousel do componente Projects.</li>
   <li>- Melhorias na copy do componente Experience.</li>
+  <li>- Remoção de bibliotecas desnescessarias para uma melhor performance no SEO do projeto.</li>
   <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio.</li>
 </ol>
 <img src="./src/images/readme.png" alt="Screen Capture">

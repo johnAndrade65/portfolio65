@@ -7,7 +7,15 @@ import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const App = () => {
+  useEffect(() => {
+    Aos.init({duration: 1500});
+  }, []);
+
   return (
     <div className="App">
       <Header/>

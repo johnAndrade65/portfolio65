@@ -4,7 +4,7 @@ import CarouselSkills from './CarouselSkills';
 
 const Skills = () => {
   return (
-    <Container className='skills-component mt-2' id='skills'>
+    <Container className='skills-component mt-2' id='skills' data-aos="zoom-in">
       <h3 className='text-center'>Habilidades</h3>
       <CarouselSkills/>
     </Container>
