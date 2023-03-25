@@ -16,7 +16,6 @@ const Header = () => {
                             <Nav.Link href="#skills">Habilidades</Nav.Link>
                             <Nav.Link href="#projects">Projetos</Nav.Link>
                             <Nav.Link href="#experience">Experiência</Nav.Link>
-                            <Nav.Link href="#link">Contato</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
