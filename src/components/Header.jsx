@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <Navbar className='header' variant="dark" expand="lg">
-                <Container className='d-flex justify-content-between'>
+                <Container className='d-flex'>
                     <Navbar.Brand href="#home" className='fs-2' id='home'>Portfolio65</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

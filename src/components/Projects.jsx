@@ -20,7 +20,7 @@ const Projects = () => {
           <Carousel fade>
             <Carousel.Item className='pb-2'>
               <img
-                className='d-block w-100 img-fluid rounded'
+                className='d-block w-100'
                 style={{ borderRadius: '15px' }}
                 src={Projeto1}
                 alt='First slide'
@@ -28,7 +28,7 @@ const Projects = () => {
             </Carousel.Item>
             <Carousel.Item className='pb-2'>
               <img
-                className='d-block w-100 img-fluid rounded'
+                className='d-block w-100'
                 style={{ borderRadius: '15px' }}
                 src={Projeto2}
                 alt='First slide'

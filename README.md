@@ -3,13 +3,10 @@
 <h5>Front-end criado com React JS e Bootstrap5 + ReactBoostrap já responsivo para diversos tamanhos de telas</h5>
 <p>Deploy: https://johnandrade65.github.io/portfolio65/</p>
 
-<ol>Atualização componente Projects:
-  <li>- Melhorias no CSS do componente "Projects" e seus elementos.</li>
-  <li>- Responsividade no componente "Projects" de forma mais fluída.</li>
-  <li>- Melhor compatibilidade com diferentes tamanhos de telas.</li>
-  <li>- Correção de erro de sintaxe do Readme.md</li>
-  <li>- Adição do menu de rodapé ao Footer.</li>
-  <li>- Adição do Favicon.</li>
+<ol>Atualização componente Projects, Experience:
+  <li>- Melhorias no CSS do componente Projects.</li>
+  <li>- Correções no border-radius do carousel do componente Projects.</li>
+  <li>- Melhorias na copy do componente Experience.</li>
   <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio.</li>
 </ol>
 <img src="./src/images/readme.png" alt="Screen Capture">
