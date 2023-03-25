@@ -10,7 +10,7 @@ const Experience = () => {
                 <div className='profile-image'>
                     <img className='img-fluid' src={wallpaper} alt="" />
                 </div>
-                <div className='resume-text'>
+                <div className='resume-text pt-2 pb-2'>
                     <h2 className='text-center mt-2' ><span>+2 Anos!</span></h2>
                     <p className='text-center' >
                         Vinicius Andrade é um programador apaixonado pelo desenvolvimento de software. Ele começou em 2020 como

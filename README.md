@@ -4,6 +4,8 @@
 <p>Deploy: https://johnandrade65.github.io/portfolio65/</p>
 
 <ol>Atualização componente Projects, Experience:
+  <li>- Melhorias no CSS do componente Experience.</li>
+  <li>- Responsividade com maior número de dispositivos sem quebrar o container.</li>
   <li>- Melhorias no CSS do componente Projects.</li>
   <li>- Correções no border-radius do carousel do componente Projects.</li>
   <li>- Melhorias na copy do componente Experience.</li>

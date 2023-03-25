@@ -211,7 +211,7 @@ span {
      /* Componente Resume */
      .resume-text {
           min-height: 500px;
-          max-height: 800px;
+          max-height: 1200px;
           padding: 10px 20px;
           border-bottom-right-radius: 15px;
           border-bottom-left-radius: 15px;
