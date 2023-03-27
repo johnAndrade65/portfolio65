@@ -25,7 +25,7 @@ body {
 }
 
 /*Componente Resume*/
-.Resume {
+.Resume{
      display: flex;
      justify-content: space-between;
      flex-wrap: wrap;
@@ -82,7 +82,7 @@ body {
 }
 
 /*Componente Experience:
-     -No componente "Experience" reutilizei o CSS do componente "Resume" por
+     - No componente "Experience" reutilizei o CSS do componente "Resume" por
      que seriam basicamente iguais;*/
 
 /*Texto com cor personalizada<span></span>*/
