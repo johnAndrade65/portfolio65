@@ -23,7 +23,7 @@
 </div>
 <ol>
 <ol>Rodar Front-end:</ol>
-  <li>Crie a (tela-de-comandos/prompt) na pasta "atividade-front-react" do front-end</li>
+  <li>Crie a (tela-de-comandos/prompt) no diretorio principal do projeto.</li>
   <li>Instale as dependencias: npm install</li>
   <li>Rode projeto: npm start</li>
 </ol>
