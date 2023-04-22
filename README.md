@@ -13,7 +13,7 @@
   <li>- Remoção de bibliotecas desnescessarias para uma melhor performance no SEO do projeto.</li>
   <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio.</li>
 </ol>
-<img src="./src/images/readme.png" alt="Screen Capture">
+<img src="./src/assets/readme.png" alt="Screen Capture">
 <div>
   <h3>Front-end:</h3>
   <div style="display: inline_block"><br/>
