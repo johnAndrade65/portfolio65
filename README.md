@@ -3,7 +3,8 @@
 <h5>Front-end criado com React JS, Bootstrap5 + ReactBoostrap já responsivo para diversos tamanhos de telas!.</h5>
 <p>Deploy: https://johnandrade65.github.io/portfolio65/</p>
 
-<ol>## Atualização Estrutura de organização do projeto:
+## Atualização Estrutura de organização do projeto:
+<ol>
   <li>- Melhoria na semâtica dos componentes JSX para uma melhor otimização no SEO do projeto.</li>
   <li>- Adição de tags de texto semâticas como "strong" e "i" nos componentes Resume e Experience.</li>
   <li>- Adição de tags de bloco semâticas como "main" e "article" nos componentes Resume e Experience.</li>
