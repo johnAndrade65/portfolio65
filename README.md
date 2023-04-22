@@ -10,7 +10,7 @@
   <li>- Criação de pastas separadas para cada componente.</li>
   <li>- Adição de comentarios no componente App.js</li>
   <li>- Melhorias na copy do componente Experience.</li>
-  <li>- Remoção de bibliotecas e arquivos desnescessarias para uma melhor performance no SEO do projeto.</li>
+  <li>- Remoção de bibliotecas e arquivos desnescessarios para uma melhor performance no SEO do projeto.</li>
   <li>- Otimização das imagens do projeto, consequentemente melhorando o SEO do Portfolio.</li>
 </ol>
 <img src="./src/assets/readme.png" alt="Screen Capture">
