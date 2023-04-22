@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../images/profile.png';
+import profileImage from '../../assets/profile.png';
 import { Container } from 'react-bootstrap';
 
 const Resume = () => {

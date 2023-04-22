@@ -2,9 +2,9 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { Container } from 'react-bootstrap';
 
-import Projeto1 from '../images/projeto-1.png';
-import Projeto2 from '../images/projeto-2.png';
-import Projeto3 from '../images/projeto-3.png';
+import Projeto1 from '../../assets/projeto-1.png';
+import Projeto2 from '../../assets/projeto-2.png';
+import Projeto3 from '../../assets/projeto-3.png';
 
 
 const Projects = () => {

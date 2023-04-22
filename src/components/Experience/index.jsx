@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
-import wallpaper from '../images/programação-wallpaper.png';
+import wallpaper from '../../assets/programação-wallpaper.png';
 
 const Experience = () => {
     return (
@@ -20,8 +20,8 @@ const Experience = () => {
                         dedicou ao estudo de .NET 6 e MySQL para se tornar um profissional <i>FullStack</i> completo e altamente 
                         qualificado. 
                         Atualmente, Vinicius é um <i>Freelancer</i> em busca de uma oportunidade em tempo integral. 
-                        Com sua paixão e habilidades excepcionais, ele é o candidato ideal para elevar seus projetos a um 
-                        novo patamar.
+                        Com sua paixão e habilidades excepcionais, ele é o candidato ideal para elevar sua equipe a um 
+                        novo patamar!.
                         </p>
                     </div>
                 </Container >

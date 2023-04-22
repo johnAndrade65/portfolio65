@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import CarouselSkills from './CarouselSkills';
+import CarouselSkills from '../CarouselSkills';
 
 const Skills = () => {
   return (

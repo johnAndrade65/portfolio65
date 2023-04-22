@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { Container } from 'react-bootstrap';
 
-import BannerFrontEnd from '../images/banner-front-end.png';
-import BannerBackEnd from '../images/banner-back-end.png';
+import BannerFrontEnd from '../../assets/banner-front-end.png';
+import BannerBackEnd from '../../assets/banner-back-end.png';
 
 
 const CarouselSkills = () => {
