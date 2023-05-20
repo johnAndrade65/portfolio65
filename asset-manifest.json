@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio65/static/css/main.e0aec6c0.css",
-    "main.js": "/portfolio65/static/js/main.13eaa600.js",
+    "main.js": "/portfolio65/static/js/main.91999446.js",
     "static/media/profile.png": "/portfolio65/static/media/profile.cb386714c3225a59a545.png",
     "static/media/programação-wallpaper.png": "/portfolio65/static/media/programação-wallpaper.9212f0324eb0d64bea5f.png",
     "static/media/whatsapp.png": "/portfolio65/static/media/whatsapp.7b7a301fb20f837747c2.png",
-    "static/media/projeto-1.png": "/portfolio65/static/media/projeto-1.33669d3854cd334cc6d7.png",
-    "static/media/projeto-3.png": "/portfolio65/static/media/projeto-3.e7564df4f30bb8dc026c.png",
-    "static/media/projeto-2.png": "/portfolio65/static/media/projeto-2.3dc6149854aa0c3e622f.png",
+    "static/media/projeto-2.png": "/portfolio65/static/media/projeto-2.98db6993d503f70e1554.png",
+    "static/media/projeto-3.png": "/portfolio65/static/media/projeto-3.33669d3854cd334cc6d7.png",
+    "static/media/projeto-4.png": "/portfolio65/static/media/projeto-4.30234c98a84628a538f3.png",
+    "static/media/projeto-1.png": "/portfolio65/static/media/projeto-1.e7564df4f30bb8dc026c.png",
     "index.html": "/portfolio65/index.html",
     "main.e0aec6c0.css.map": "/portfolio65/static/css/main.e0aec6c0.css.map",
-    "main.13eaa600.js.map": "/portfolio65/static/js/main.13eaa600.js.map"
+    "main.91999446.js.map": "/portfolio65/static/js/main.91999446.js.map"
   },
   "entrypoints": [
     "static/css/main.e0aec6c0.css",
-    "static/js/main.13eaa600.js"
+    "static/js/main.91999446.js"
   ]
 }
