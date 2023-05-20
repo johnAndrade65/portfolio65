@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import Projeto1 from '../../assets/projeto-1.png';
 import Projeto2 from '../../assets/projeto-2.png';
 import Projeto3 from '../../assets/projeto-3.png';
+import Projeto4 from '../../assets/projeto-4.png';
 
 
 const Projects = () => {
@@ -23,7 +24,7 @@ const Projects = () => {
                 className='d-block w-100'
                 style={{ borderRadius: '15px' }}
                 src={Projeto1}
-                alt='First slide'
+                alt='Projects'
               />
             </Carousel.Item>
             <Carousel.Item className='pb-2'>
@@ -31,7 +32,7 @@ const Projects = () => {
                 className='d-block w-100'
                 style={{ borderRadius: '15px' }}
                 src={Projeto2}
-                alt='First slide'
+                alt='Projects'
               />
             </Carousel.Item>
             <Carousel.Item className='pb-2'>
@@ -39,7 +40,15 @@ const Projects = () => {
                 className='d-block w-100'
                 style={{ borderRadius: '15px' }}
                 src={Projeto3}
-                alt='First slide'
+                alt='Projects'
+              />
+            </Carousel.Item>
+            <Carousel.Item className='pb-2'>
+              <img
+                className='d-block w-100'
+                style={{ borderRadius: '15px' }}
+                src={Projeto4}
+                alt='Projects'
               />
             </Carousel.Item>
           </Carousel>
